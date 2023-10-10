@@ -28,7 +28,7 @@ void loop() {
   Serial.println(flame1);
 
   if (flame1 == 1) {
-    myLINE.notify("จดหมายมาส่งจ้า");  
+    myLINE.notify("สวัสดีครับคุณพงษธัช มีพัสดุมาส่งอย่าลืมมาเปิดรับด้วยนะครับ");  
     Serial.println("Warnig, Warning, Warning");
     delay(5000);
   }
